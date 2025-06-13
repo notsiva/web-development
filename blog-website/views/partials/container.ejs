@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/container.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section">
+        <% for( let i = 0; i < locals.blogLength; i++ ) { %>
+        <a href="/blog_post" class="title"> <%= blog[i].title %></a>
+        <p class="short-description"><%= blog[i].shortDescription %></p>
+        <p class="main-description"><%= blog[i].mainDescription %></p>
+
+        <% } %>
+      </div>
+      <div class="right-section"></div>
+    </div>
+    <button class="btn"><a href="/posting">Post Blog</a></button>
+  </body>
+</html>

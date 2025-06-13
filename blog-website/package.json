@@ -1,0 +1,26 @@
+{
+  "name": "blog-website",
+  "version": "1.0.0",
+  "description": "A simple project based on my udemy fullstack bootcamp learning. After completing the project maybe i can showcase this in my resume and portfolio.",
+  "keywords": [
+    "blog",
+    "own",
+    "Project",
+    "nodejs",
+    "expressjs",
+    "ejs",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Sivakaran",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/posting.css" />
+  </head>
+  <body>
+    <form action="/submit" method="post" class="post-form">
+      <label> Heading </label>
+      <input
+        type="text"
+        name="title"
+        placeholder="Enter the blog heading"
+        required
+      />
+      <label>Short description for the blog</label>
+      <textarea rows="4" name="shortDescription" required></textarea>
+      <label for="">Description</label>
+      <textarea name="mainDescription" required rows="10"></textarea>
+      <input type="submit" value="Post" />
+    </form>
+  </body>
+</html>

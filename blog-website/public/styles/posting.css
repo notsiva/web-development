@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10%;
+  font-family: "Outfit", sans-serif;
+  color: black;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-form > input,
+.post-form > textarea {
+  padding: 10px;
+  outline: none;
+  font-family: "Outfit", sans-serif;
+}
